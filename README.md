@@ -75,7 +75,9 @@ A user is able to manage tasks once logged.
 
 # App deployment
 
+The app can be accessed below:
 
+1. https://todo-project-sepia.vercel.app/login
 
 
 
