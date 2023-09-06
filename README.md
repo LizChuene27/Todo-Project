@@ -38,6 +38,15 @@ Your React application will be running at http://localhost:3000
 
 Login Url: http://localhost:3000/login
 
+
+## Connecting to the MongoDB 
+
+The connection string is in the backend app.js file where you need to add your username and password between this line of code "const MONGODB_URI = 'mongodb+srv://<username>:<password>@cluster0.wt2dlzb.mongodb.net/?retryWrites=true&w=majority';"
+
+## Security
+
+The security of the app is handled by JWT, and users can only access designated routes. 
+
 #### Admin credentials
 ```javascript
 username: admin
@@ -51,6 +60,22 @@ An admin us able to delete/modify users once logged in
 
 A user is able to manage tasks once logged.
 
+
+#### How to run test cases:
+
+* Note: Both frontend and backend test cannot be run at same time due to jest-testEnvironment dependency.
+
+### Frontend:
+1. Change “testEnvironment” : “jsdom” in jest.config.js file in the root location.
+2. In terminal Run: “npm run test-frontend”
+— You will get 4 test cases results.
+
+### Backend:
+1. Change “testEnvironment” : “node” in jest.config.js file in the root location.
+2. In terminal Run: “npm run test-backend”
+— You will get 2 test cases results.
+
+#### App deployment
 
 
 
