@@ -1,0 +1,154 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "email": "admin@example.com",
+      "password": "admin",
+      "role": "admin",
+      "todos": []
+    },
+    {
+      "username": "jay",
+      "email": "jay@gmail.com",
+      "password": "admin",
+      "role": "user",
+      "id": "9N8w81A4TD"
+    },
+    {
+      "id": "YD9c0URMPx",
+      "username": "ajay",
+      "email": "ajay@gmail.com",
+      "password": "admin",
+      "role": "user"
+    },
+    {
+      "id": "oRJk4hgeLZ",
+      "username": "amit",
+      "email": "amit@gmail.com",
+      "password": "admin",
+      "role": "user"
+    },
+    {
+      "id": "8joBuHtfL8",
+      "username": "amit2",
+      "email": "amit2@gmail.com",
+      "password": "admin",
+      "role": "user"
+    },
+    {
+      "id": "n4LtafcJ89",
+      "username": "amit3",
+      "email": "amit3@gmail.com",
+      "password": "admin",
+      "role": "user"
+    },
+    {
+      "id": "XXAjMIVnsk",
+      "username": "amit4",
+      "email": "amit4@gmail.com",
+      "password": "admin",
+      "role": "user"
+    },
+    {
+      "id": "NJNnGpKQvH",
+      "username": "amit5",
+      "email": "amit5@gmail.com",
+      "password": "admin",
+      "role": "user"
+    },
+    {
+      "id": "KxJBhAdeKe",
+      "username": "ak",
+      "email": "ak@gmail.com",
+      "password": "admin",
+      "role": "user"
+    },
+    {
+      "id": "GDGnDTLklb",
+      "username": "ak2",
+      "email": "ak2@gmail.com",
+      "password": "admin",
+      "role": "user"
+    },
+    {
+      "id": "QijuI6X0c2",
+      "username": "ak3",
+      "email": "ak2@gmail.com",
+      "password": "admin",
+      "role": "user"
+    },
+    {
+      "id": "nkNn7DLOwT",
+      "username": "ak4",
+      "email": "ak4@gmail.com",
+      "password": "admin",
+      "role": "user"
+    },
+    {
+      "id": "OukNURbDAL",
+      "username": "ak5",
+      "email": "ak5@gmail.com",
+      "password": "admin",
+      "role": "user"
+    },
+    {
+      "id": "vqtn2QKGct",
+      "username": "ak8",
+      "email": "ak8@gmail.com",
+      "password": "admin",
+      "role": "user"
+    },
+    {
+      "id": "Ut434exvTT",
+      "username": "ak9",
+      "email": "ak9@gmail.com",
+      "password": "admin",
+      "role": "user"
+    },
+    {
+      "username": "aaa",
+      "email": "aaa@gmail.com",
+      "password": "admin",
+      "role": "user",
+      "id": "JHHkYqsPIT"
+    }
+  ],
+  "todos": [
+    {
+      "title": "todo 1",
+      "summary": "this is frist task",
+      "userId": "9N8w81A4TD",
+      "id": "pTt4CMmJUY",
+      "active": true
+    },
+    {
+      "title": "todo 2 update",
+      "summary": "this is second todo",
+      "userId": "9N8w81A4TD",
+      "id": "iH0Eh2AAQx",
+      "active": false
+    },
+    {
+      "title": "new todo update",
+      "summary": "this is new todo list",
+      "userId": "9N8w81A4TD",
+      "id": "gk3nsKlgmP",
+      "active": true
+    },
+    {
+      "title": "todo1",
+      "summary": "this is new todo list",
+      "userId": "JHHkYqsPIT",
+      "id": "Ve70yP0mxk",
+      "active": true
+    },
+    {
+      "title": "todo 2",
+      "summary": "this is second todo",
+      "userId": "JHHkYqsPIT",
+      "active": true,
+      "id": "kYMny3fMht"
+    }
+  ]
+}
