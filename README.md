@@ -60,20 +60,20 @@ An admin us able to delete/modify users once logged in
 
 A user is able to manage tasks once logged.
 
-##### How to run test cases
+# How to run test cases
 * Note: Both frontend and backend test cannot be run at same time due to jest-testEnvironment dependency.
 
-## Frontend:
+### Frontend:
 1. Change “testEnvironment” : “jsdom” in jest.config.js file in the root location.
 2. In terminal Run: “npm run test-frontend”
 — You will get 4 test cases results.
 
-## Backend:
+### Backend:
 1. Change “testEnvironment” : “node” in jest.config.js file in the root location.
 2. In terminal Run: “npm run test-backend”
 — You will get 2 test cases results.
 
-#### App deployment
+# App deployment
 
 
 
