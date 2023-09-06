@@ -60,7 +60,7 @@ An admin us able to delete/modify users once logged in
 
 A user is able to manage tasks once logged.
 
-#### How to run test cases
+##### How to run test cases
 * Note: Both frontend and backend test cannot be run at same time due to jest-testEnvironment dependency.
 
 ## Frontend:
