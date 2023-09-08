@@ -13,7 +13,7 @@ const port = process.env.PORT || 8000;
 
 
 // Connect to MongoDB
-const MONGODB_URI = 'mongodb+srv://<username>:<password>@cluster0.wt2dlzb.mongodb.net/?retryWrites=true&w=majority';
+const MONGODB_URI = 'mongodb+srv://LizChuene27:mondesa@cluster0.wt2dlzb.mongodb.net/?retryWrites=true&w=majority';
 mongoose.connect(MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('Connected to MongoDB'))
   .catch(err => console.log('Error connecting to MongoDB:', err));
